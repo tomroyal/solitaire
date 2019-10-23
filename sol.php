@@ -26,7 +26,7 @@ function initBlankDeck($deck){
   return($deck);
 }
 
-// move nth card down x positions in deck
+// logging func
 
 function showWorking($deck, $explanation){
   echo($explanation);
