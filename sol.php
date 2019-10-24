@@ -7,7 +7,6 @@
 // https://www.schneier.com/academic/solitaire/
 
 $deck = ''; // init empty string for deck
-$dops = 0; // counter for deck operations
 
 // for convenience: convert a character to its numeric equivalent, starting with a = 01 through z = 26
 function charToNumber($c) {
@@ -18,12 +17,13 @@ function charToNumber($c) {
 // initilise a deck as a string (aces low, bridge order (CDHS), then two jokers)
 // each card is numeric, 01 for ace clubs through 52 for KS
 // call them joker A and joker B - JA and JB
-function initBlankDeck($deck){
-  for ($c = 1; $c <=52; $c++){
-    $deck .= str_pad($c,2,'0',STR_PAD_LEFT).',';
+function initBlankDeck(){
+  global $deck;
+  for ($counter = 1; $counter <=52; $counter++){
+    $deck .= str_pad($counter,2,'0',STR_PAD_LEFT).',';
   }
   $deck .= 'JA,JB,';
-  return($deck);
+  return;
 }
 
 // logging func
@@ -32,13 +32,56 @@ function showWorking($deck, $explanation){
   echo($explanation);
   echo("\r\n");
   if ($deck != ''){
-    echo($deck);
+    $deckdisplay = '';
+    for ($counter = 0; $counter < 54; $counter++){
+      $acard = substr($deck,(3*$counter),2);
+      if (strpos($acard,'J') === false){
+        // non joker
+        $acard = intval($acard);
+        // suit
+        if ($acard > 39){
+          $suit = 'S';
+          $acard = $acard - 39;
+        }
+        else if ($acard > 26){
+          $suit = 'H';
+          $acard = $acard - 26;
+        }
+        else if ($acard > 13){
+          $suit = 'D';
+          $acard = $acard - 13;
+        }
+        else {
+          $suit = 'C';
+        };
+        // value
+        if ($acard == 13){
+          $deckdisplay .= 'K'.$suit;
+        }  
+        else if ($acard == 12){
+          $deckdisplay .= 'Q'.$suit;
+        }
+        else if ($acard == 11){
+          $deckdisplay .= 'J'.$suit;
+        }
+        else {
+          $deckdisplay .= $acard.$suit;
+        };
+      }
+      else {
+        // joker
+        $deckdisplay .= $acard;
+      }  
+      $deckdisplay .= ' / ';  
+    }
+    echo($deckdisplay);  
     echo("\r\n");
   }
   echo("\r\n");
 }
 
-function moveCardByN($deck, $card, $steps){
+function moveCardByN($card, $steps){
+  global $deck;
   // move card $card down $deck by $steps positions
 
   $card = strval($card).',';
@@ -60,25 +103,24 @@ function moveCardByN($deck, $card, $steps){
   $deck = substr_replace($deck,$card,$insertpos,0);
 
   // return
-  return($deck);
+  return;
 }
 
-function doSolitaire($deck,$encoding){
+function doSolitaire($encoding){
   // one iteration of the algorithm
-  global $dops;
+  global $deck;
+
 
   // 1) find JA, move it one back or to position 2
 
-  $deck = moveCardByN($deck, 'JA', 1);
+  moveCardByN('JA', 1);
   
-  $dops++;
   showWorking($deck, 'Move JA back one');
   
   // 2) find JB, move it one back or to position 3
 
-  $deck = moveCardByN($deck, 'JB', 2);
+  moveCardByN('JB', 2);
   
-  $dops++;
   showWorking($deck, 'Move JB back two');
 
   // 3) "swap the cards above the first joker with the cards below the second joker" - ignoring JA JB
@@ -90,7 +132,6 @@ function doSolitaire($deck,$encoding){
   // swap
   $deck = substr($deck,($secondj+3)).substr($deck,$firstj,($secondj+3-$firstj)).substr($deck,0,$firstj);
   
-  $dops++;
   showWorking($deck, 'Swap cards above first J with those below second J');
 
 
@@ -108,7 +149,6 @@ function doSolitaire($deck,$encoding){
     $lastcardvalue = intval($lastcard);
     $deck = substr($deck,(3*$lastcardvalue),(159-(3*$lastcardvalue))).substr($deck,0,(3*$lastcardvalue)).substr($deck,159);
     
-    $dops++;
     showWorking($deck, 'Count cut on value of last card ('.$lastcardvalue.')');
   }
   else {
@@ -138,7 +178,6 @@ function doSolitaire($deck,$encoding){
     $deck = substr($deck,(3*$encoding),(159-(3*$encoding))).substr($deck,0,(3*$encoding)).substr($deck,159); 
     showWorking($deck, 'Encoding deck, so second count cut based on input ('.$encoding.')');  
     $outputvalue = '';
-    $dops++;
   } 
   else {
     // work out the position in deck to check
@@ -155,47 +194,42 @@ function doSolitaire($deck,$encoding){
     }
     
   }
-  $solresult['deck'] = $deck;
-  $solresult['value'] = $outputvalue;
-  return($solresult);
-
+  return($outputvalue);
 }
 
-function prepareDeckFromPassphrase($deck,$keypassphrase){
+function prepareDeckFromPassphrase($keypassphrase){
+  global $deck;
   showWorking('', 'preparing deck from passphrase');
   $counter = 0;
   while ($counter < strlen($keypassphrase)){
     showWorking('', 'Init an encoding sol using character ('.substr($keypassphrase,$counter,1).')');  
-    $sol = doSolitaire($deck,chartonumber(substr($keypassphrase,$counter,1)));
-    $deck = $sol['deck'];
+    $sol = doSolitaire(chartonumber(substr($keypassphrase,$counter,1)));
     $counter++;
   }
   showWorking($deck, 'Deck now initialised from '.$keypassphrase); 
-  return($deck);
+  return;
 }
 
-function generateCypherStream($deck,$length){
+function generateCypherStream($length){
+  global $deck;
   showWorking('', 'preparing cypherstream');
   $counter = 0;
   $cypherstream = '';
   while ($counter < $length){
     showWorking('', 'Init a keystream sol, counter '.$counter);
-    $sol = doSolitaire($deck,FALSE);
-    $deck = $sol['deck'];
-    if ($sol['value'] != 'JJ'){
+    $sol = doSolitaire(FALSE);
+    if ($sol != 'JJ'){
       // valid result
-      $cypherstream .= $sol['value'].',';
+      $cypherstream .= $sol.',';
       $counter++;
-      showWorking('', 'returned '.$sol['value'].' cs now '.$cypherstream);
+      showWorking('', 'returned '.$sol.' cs now '.$cypherstream);
     }
     else {
       showWorking('', 'returned joker so ignoring');
     }
-  
   };
   showWorking('', 'cypherstream complete as '.$cypherstream);
   return($cypherstream);
-  
 }
 
 function encryptThis($input,$cypherstream,$decrypt) {
@@ -204,7 +238,10 @@ function encryptThis($input,$cypherstream,$decrypt) {
   while ($counter < strlen($input)){
     if (!$decrypt){
       // decrypt false, so encrypt - addition
-      $res = (charToNumber(substr($input,$counter,1)) + substr($cypherstream,($counter*3),2))%26;
+      $res = (charToNumber(substr($input,$counter,1)) + substr($cypherstream,($counter*3),2));
+      while ($res > 26){
+        $res = $res - 26;
+      }
     }
     else {
       // decrypt
@@ -224,23 +261,22 @@ function encryptThis($input,$cypherstream,$decrypt) {
 // OK, play some cards..
 
 $keypassphrase = 'CRYPTONOMICON';
-$input = 'SOLITAIRE';
+$input = 'cat';
 
 // init the deck in standard order 
-$deck = initBlankDeck($deck);
+initBlankDeck();
 showWorking($deck, 'init blank deck');
 
 // prepare the deck from the passphrase
-$deck = prepareDeckFromPassphrase($deck,$keypassphrase);
+prepareDeckFromPassphrase($keypassphrase);
 
 // generate cypherstream
-$cypherstream = generateCypherStream($deck,strlen($input));
+$cypherstream = generateCypherStream(strlen($input));
 
 // encrypt
 $output = encryptThis($input,$cypherstream,FALSE); 
-showWorking('', 'Complete. Plaintext '.$input.', keyphrase '.$keypassphrase.', ciphertext '.$output.' deck operations '.$dops);
+showWorking('', 'Complete. Plaintext '.$input.', keyphrase '.$keypassphrase.', ciphertext '.$output.'');
 
 // decrypt
 // $output2 = encryptThis($output,$cypherstream,TRUE);
-
 ?>
