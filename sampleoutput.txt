@@ -1,0 +1,441 @@
+init blank deck
+1C / 2C / 3C / 4C / 5C / 6C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / 3D / 4D / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 3H / 4H / 5H / 6H / 7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / JS / QS / KS / JA / JB / 
+
+preparing deck from passphrase
+
+Init an encoding sol using character (C)
+
+Move JA back one
+1C / 2C / 3C / 4C / 5C / 6C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / 3D / 4D / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 3H / 4H / 5H / 6H / 7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / JS / QS / KS / JB / JA / 
+
+Move JB back two
+1C / JB / 2C / 3C / 4C / 5C / 6C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / 3D / 4D / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 3H / 4H / 5H / 6H / 7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / JS / QS / KS / JA / 
+
+Swap cards above first J with those below second J
+JB / 2C / 3C / 4C / 5C / 6C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / 3D / 4D / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 3H / 4H / 5H / 6H / 7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / JS / QS / KS / JA / 1C / 
+
+Count cut on value of last card (1)
+2C / 3C / 4C / 5C / 6C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / 3D / 4D / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 3H / 4H / 5H / 6H / 7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / JS / QS / KS / JA / JB / 1C / 
+
+Top card value is 2
+
+Encoding deck, so second count cut based on input (03)
+5C / 6C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / 3D / 4D / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 3H / 4H / 5H / 6H / 7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / JS / QS / KS / JA / JB / 2C / 3C / 4C / 1C / 
+
+Init an encoding sol using character (R)
+
+Move JA back one
+5C / 6C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / 3D / 4D / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 3H / 4H / 5H / 6H / 7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / JS / QS / KS / JB / JA / 2C / 3C / 4C / 1C / 
+
+Move JB back two
+5C / 6C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / 3D / 4D / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 3H / 4H / 5H / 6H / 7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / JS / QS / KS / JA / 2C / JB / 3C / 4C / 1C / 
+
+Swap cards above first J with those below second J
+3C / 4C / 1C / JA / 2C / JB / 5C / 6C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / 3D / 4D / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 3H / 4H / 5H / 6H / 7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / JS / QS / KS / 
+
+Count cut on value of last card (52)
+QS / 3C / 4C / 1C / JA / 2C / JB / 5C / 6C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / 3D / 4D / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 3H / 4H / 5H / 6H / 7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / JS / KS / 
+
+Top card value is 51
+
+Encoding deck, so second count cut based on input (18)
+3D / 4D / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 3H / 4H / 5H / 6H / 7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / JS / QS / 3C / 4C / 1C / JA / 2C / JB / 5C / 6C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / KS / 
+
+Init an encoding sol using character (Y)
+
+Move JA back one
+3D / 4D / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 3H / 4H / 5H / 6H / 7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / JS / QS / 3C / 4C / 1C / 2C / JA / JB / 5C / 6C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / KS / 
+
+Move JB back two
+3D / 4D / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 3H / 4H / 5H / 6H / 7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / JS / QS / 3C / 4C / 1C / 2C / JA / 5C / 6C / JB / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / KS / 
+
+Swap cards above first J with those below second J
+7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / KS / JA / 5C / 6C / JB / 3D / 4D / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 3H / 4H / 5H / 6H / 7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / JS / QS / 3C / 4C / 1C / 2C / 
+
+Count cut on value of last card (2)
+9C / 10C / JC / QC / KC / 1D / 2D / KS / JA / 5C / 6C / JB / 3D / 4D / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 3H / 4H / 5H / 6H / 7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / JS / QS / 3C / 4C / 1C / 7C / 8C / 2C / 
+
+Top card value is 9
+
+Encoding deck, so second count cut based on input (25)
+3H / 4H / 5H / 6H / 7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / JS / QS / 3C / 4C / 1C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / KS / JA / 5C / 6C / JB / 3D / 4D / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 2C / 
+
+Init an encoding sol using character (P)
+
+Move JA back one
+3H / 4H / 5H / 6H / 7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / JS / QS / 3C / 4C / 1C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / KS / 5C / JA / 6C / JB / 3D / 4D / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 2C / 
+
+Move JB back two
+3H / 4H / 5H / 6H / 7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / JS / QS / 3C / 4C / 1C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / KS / 5C / JA / 6C / 3D / 4D / JB / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 2C / 
+
+Swap cards above first J with those below second J
+5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 2C / JA / 6C / 3D / 4D / JB / 3H / 4H / 5H / 6H / 7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / JS / QS / 3C / 4C / 1C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / KS / 5C / 
+
+Count cut on value of last card (5)
+10D / JD / QD / KD / 1H / 2H / 2C / JA / 6C / 3D / 4D / JB / 3H / 4H / 5H / 6H / 7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / JS / QS / 3C / 4C / 1C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / KS / 5D / 6D / 7D / 8D / 9D / 5C / 
+
+Top card value is 23
+
+Encoding deck, so second count cut based on input (16)
+7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / JS / QS / 3C / 4C / 1C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / KS / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 2C / JA / 6C / 3D / 4D / JB / 3H / 4H / 5H / 6H / 5C / 
+
+Init an encoding sol using character (T)
+
+Move JA back one
+7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / JS / QS / 3C / 4C / 1C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / KS / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 2C / 6C / JA / 3D / 4D / JB / 3H / 4H / 5H / 6H / 5C / 
+
+Move JB back two
+7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / JS / QS / 3C / 4C / 1C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / KS / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 2C / 6C / JA / 3D / 4D / 3H / 4H / JB / 5H / 6H / 5C / 
+
+Swap cards above first J with those below second J
+5H / 6H / 5C / JA / 3D / 4D / 3H / 4H / JB / 7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / JS / QS / 3C / 4C / 1C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / KS / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 2C / 6C / 
+
+Count cut on value of last card (6)
+3H / 4H / JB / 7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / JS / QS / 3C / 4C / 1C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / KS / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 2C / 5H / 6H / 5C / JA / 3D / 4D / 6C / 
+
+Top card value is 29
+
+Encoding deck, so second count cut based on input (20)
+JS / QS / 3C / 4C / 1C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / KS / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 2C / 5H / 6H / 5C / JA / 3D / 4D / 3H / 4H / JB / 7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / 6C / 
+
+Init an encoding sol using character (O)
+
+Move JA back one
+JS / QS / 3C / 4C / 1C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / KS / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 2C / 5H / 6H / 5C / 3D / JA / 4D / 3H / 4H / JB / 7H / 8H / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / 6C / 
+
+Move JB back two
+JS / QS / 3C / 4C / 1C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / KS / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 2C / 5H / 6H / 5C / 3D / JA / 4D / 3H / 4H / 7H / 8H / JB / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / 6C / 
+
+Swap cards above first J with those below second J
+9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / 6C / JA / 4D / 3H / 4H / 7H / 8H / JB / JS / QS / 3C / 4C / 1C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / KS / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 2C / 5H / 6H / 5C / 3D / 
+
+Count cut on value of last card (16)
+JA / 4D / 3H / 4H / 7H / 8H / JB / JS / QS / 3C / 4C / 1C / 7C / 8C / 9C / 10C / JC / QC / KC / 1D / 2D / KS / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / 6C / 3D / 
+
+Top card value is 53
+
+Encoding deck, so second count cut based on input (15)
+10C / JC / QC / KC / 1D / 2D / KS / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / 6C / JA / 4D / 3H / 4H / 7H / 8H / JB / JS / QS / 3C / 4C / 1C / 7C / 8C / 9C / 3D / 
+
+Init an encoding sol using character (N)
+
+Move JA back one
+10C / JC / QC / KC / 1D / 2D / KS / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / 6C / 4D / JA / 3H / 4H / 7H / 8H / JB / JS / QS / 3C / 4C / 1C / 7C / 8C / 9C / 3D / 
+
+Move JB back two
+10C / JC / QC / KC / 1D / 2D / KS / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / 6C / 4D / JA / 3H / 4H / 7H / 8H / JS / QS / JB / 3C / 4C / 1C / 7C / 8C / 9C / 3D / 
+
+Swap cards above first J with those below second J
+3C / 4C / 1C / 7C / 8C / 9C / 3D / JA / 3H / 4H / 7H / 8H / JS / QS / JB / 10C / JC / QC / KC / 1D / 2D / KS / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / 6C / 4D / 
+
+Count cut on value of last card (17)
+QC / KC / 1D / 2D / KS / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 1H / 2H / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / 6C / 3C / 4C / 1C / 7C / 8C / 9C / 3D / JA / 3H / 4H / 7H / 8H / JS / QS / JB / 10C / JC / 4D / 
+
+Top card value is 12
+
+Encoding deck, so second count cut based on input (14)
+1H / 2H / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / 6C / 3C / 4C / 1C / 7C / 8C / 9C / 3D / JA / 3H / 4H / 7H / 8H / JS / QS / JB / 10C / JC / QC / KC / 1D / 2D / KS / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 
+
+Init an encoding sol using character (O)
+
+Move JA back one
+1H / 2H / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / 6C / 3C / 4C / 1C / 7C / 8C / 9C / 3D / 3H / JA / 4H / 7H / 8H / JS / QS / JB / 10C / JC / QC / KC / 1D / 2D / KS / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 
+
+Move JB back two
+1H / 2H / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / 6C / 3C / 4C / 1C / 7C / 8C / 9C / 3D / 3H / JA / 4H / 7H / 8H / JS / QS / 10C / JC / JB / QC / KC / 1D / 2D / KS / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 
+
+Swap cards above first J with those below second J
+QC / KC / 1D / 2D / KS / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / JA / 4H / 7H / 8H / JS / QS / 10C / JC / JB / 1H / 2H / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / 6C / 3C / 4C / 1C / 7C / 8C / 9C / 3D / 3H / 
+
+Count cut on value of last card (29)
+5C / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 10S / 6C / 3C / 4C / 1C / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / JA / 4H / 7H / 8H / JS / QS / 10C / JC / JB / 1H / 2H / 2C / 5H / 6H / 3H / 
+
+Top card value is 5
+
+Encoding deck, so second count cut based on input (15)
+10S / 6C / 3C / 4C / 1C / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / JA / 4H / 7H / 8H / JS / QS / 10C / JC / JB / 1H / 2H / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 3H / 
+
+Init an encoding sol using character (M)
+
+Move JA back one
+10S / 6C / 3C / 4C / 1C / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 4H / JA / 7H / 8H / JS / QS / 10C / JC / JB / 1H / 2H / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 3H / 
+
+Move JB back two
+10S / 6C / 3C / 4C / 1C / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 4H / JA / 7H / 8H / JS / QS / 10C / JC / 1H / 2H / JB / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 3H / 
+
+Swap cards above first J with those below second J
+2C / 5H / 6H / 5C / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 3H / JA / 7H / 8H / JS / QS / 10C / JC / 1H / 2H / JB / 10S / 6C / 3C / 4C / 1C / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 4H / 
+
+Count cut on value of last card (30)
+6C / 3C / 4C / 1C / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 3H / JA / 7H / 8H / JS / QS / 10C / JC / 1H / 2H / JB / 10S / 4H / 
+
+Top card value is 6
+
+Encoding deck, so second count cut based on input (13)
+5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 3H / JA / 7H / 8H / JS / QS / 10C / JC / 1H / 2H / JB / 10S / 6C / 3C / 4C / 1C / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 
+
+Init an encoding sol using character (I)
+
+Move JA back one
+5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 3H / 7H / JA / 8H / JS / QS / 10C / JC / 1H / 2H / JB / 10S / 6C / 3C / 4C / 1C / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 
+
+Move JB back two
+5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 3H / 7H / JA / 8H / JS / QS / 10C / JC / 1H / 2H / 10S / 6C / JB / 3C / 4C / 1C / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 
+
+Swap cards above first J with those below second J
+3C / 4C / 1C / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / JA / 8H / JS / QS / 10C / JC / 1H / 2H / 10S / 6C / JB / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 3H / 7H / 
+
+Count cut on value of last card (33)
+4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 3H / 3C / 4C / 1C / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / JA / 8H / JS / QS / 10C / JC / 1H / 2H / 10S / 6C / JB / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 7H / 
+
+Top card value is 17
+
+Encoding deck, so second count cut based on input (09)
+KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 3H / 3C / 4C / 1C / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / JA / 8H / JS / QS / 10C / JC / 1H / 2H / 10S / 6C / JB / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 
+
+Init an encoding sol using character (C)
+
+Move JA back one
+KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 3H / 3C / 4C / 1C / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 8H / JA / JS / QS / 10C / JC / 1H / 2H / 10S / 6C / JB / 5D / 6D / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 
+
+Move JB back two
+KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 3H / 3C / 4C / 1C / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 8H / JA / JS / QS / 10C / JC / 1H / 2H / 10S / 6C / 5D / 6D / JB / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 
+
+Swap cards above first J with those below second J
+7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / JA / JS / QS / 10C / JC / 1H / 2H / 10S / 6C / 5D / 6D / JB / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8S / 9S / 3H / 3C / 4C / 1C / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 8H / 
+
+Count cut on value of last card (34)
+5S / 6S / 7S / 8S / 9S / 3H / 3C / 4C / 1C / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / JA / JS / QS / 10C / JC / 1H / 2H / 10S / 6C / 5D / 6D / JB / KH / 1S / 2S / 3S / 4S / 8H / 
+
+Top card value is 44
+
+Encoding deck, so second count cut based on input (03)
+8S / 9S / 3H / 3C / 4C / 1C / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / JA / JS / QS / 10C / JC / 1H / 2H / 10S / 6C / 5D / 6D / JB / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8H / 
+
+Init an encoding sol using character (O)
+
+Move JA back one
+8S / 9S / 3H / 3C / 4C / 1C / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / JS / JA / QS / 10C / JC / 1H / 2H / 10S / 6C / 5D / 6D / JB / KH / 1S / 2S / 3S / 4S / 5S / 6S / 7S / 8H / 
+
+Move JB back two
+8S / 9S / 3H / 3C / 4C / 1C / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / JS / JA / QS / 10C / JC / 1H / 2H / 10S / 6C / 5D / 6D / KH / 1S / JB / 2S / 3S / 4S / 5S / 6S / 7S / 8H / 
+
+Swap cards above first J with those below second J
+2S / 3S / 4S / 5S / 6S / 7S / 8H / JA / QS / 10C / JC / 1H / 2H / 10S / 6C / 5D / 6D / KH / 1S / JB / 8S / 9S / 3H / 3C / 4C / 1C / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / JS / 
+
+Count cut on value of last card (50)
+JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / JA / QS / 10C / JC / 1H / 2H / 10S / 6C / 5D / 6D / KH / 1S / JB / 8S / 9S / 3H / 3C / 4C / 1C / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JS / 
+
+Top card value is 37
+
+Encoding deck, so second count cut based on input (15)
+2H / 10S / 6C / 5D / 6D / KH / 1S / JB / 8S / 9S / 3H / 3C / 4C / 1C / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / JA / QS / 10C / JC / 1H / JS / 
+
+Init an encoding sol using character (N)
+
+Move JA back one
+2H / 10S / 6C / 5D / 6D / KH / 1S / JB / 8S / 9S / 3H / 3C / 4C / 1C / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / QS / JA / 10C / JC / 1H / JS / 
+
+Move JB back two
+2H / 10S / 6C / 5D / 6D / KH / 1S / 8S / 9S / JB / 3H / 3C / 4C / 1C / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / QS / JA / 10C / JC / 1H / JS / 
+
+Swap cards above first J with those below second J
+10C / JC / 1H / JS / JB / 3H / 3C / 4C / 1C / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / QS / JA / 2H / 10S / 6C / 5D / 6D / KH / 1S / 8S / 9S / 
+
+Count cut on value of last card (48)
+5D / 6D / KH / 1S / 8S / 10C / JC / 1H / JS / JB / 3H / 3C / 4C / 1C / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / QS / JA / 2H / 10S / 6C / 9S / 
+
+Top card value is 18
+
+Encoding deck, so second count cut based on input (14)
+7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / QS / JA / 2H / 10S / 6C / 5D / 6D / KH / 1S / 8S / 10C / JC / 1H / JS / JB / 3H / 3C / 4C / 1C / 9S / 
+
+Deck now initialised from CRYPTONOMICON
+7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / QS / JA / 2H / 10S / 6C / 5D / 6D / KH / 1S / 8S / 10C / JC / 1H / JS / JB / 3H / 3C / 4C / 1C / 9S / 
+
+preparing cypherstream
+
+Init a keystream sol, counter 0
+
+Move JA back one
+7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / QS / 2H / JA / 10S / 6C / 5D / 6D / KH / 1S / 8S / 10C / JC / 1H / JS / JB / 3H / 3C / 4C / 1C / 9S / 
+
+Move JB back two
+7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / QS / 2H / JA / 10S / 6C / 5D / 6D / KH / 1S / 8S / 10C / JC / 1H / JS / 3H / 3C / JB / 4C / 1C / 9S / 
+
+Swap cards above first J with those below second J
+4C / 1C / 9S / JA / 10S / 6C / 5D / 6D / KH / 1S / 8S / 10C / JC / 1H / JS / 3H / 3C / JB / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / QS / 2H / 
+
+Count cut on value of last card (28)
+7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / QS / 4C / 1C / 9S / JA / 10S / 6C / 5D / 6D / KH / 1S / 8S / 10C / JC / 1H / JS / 3H / 3C / JB / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 2H / 
+
+Top card value is 20
+
+Output value is 44
+
+returned 44 cs now 44,
+
+Init a keystream sol, counter 1
+
+Move JA back one
+7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / QS / 4C / 1C / 9S / 10S / JA / 6C / 5D / 6D / KH / 1S / 8S / 10C / JC / 1H / JS / 3H / 3C / JB / 7C / 8C / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 2H / 
+
+Move JB back two
+7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / QS / 4C / 1C / 9S / 10S / JA / 6C / 5D / 6D / KH / 1S / 8S / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / JB / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 2H / 
+
+Swap cards above first J with those below second J
+9C / 3D / QC / KC / 1D / 2D / KS / 4H / 2H / JA / 6C / 5D / 6D / KH / 1S / 8S / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / JB / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / QS / 4C / 1C / 9S / 10S / 
+
+Count cut on value of last card (49)
+QS / 4C / 1C / 9S / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 2H / JA / 6C / 5D / 6D / KH / 1S / 8S / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / JB / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / 10S / 
+
+Top card value is 51
+
+Output value is 46
+
+returned 46 cs now 44,46,
+
+Init a keystream sol, counter 2
+
+Move JA back one
+QS / 4C / 1C / 9S / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 2H / 6C / JA / 5D / 6D / KH / 1S / 8S / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / JB / 7D / 8D / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / 10S / 
+
+Move JB back two
+QS / 4C / 1C / 9S / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 2H / 6C / JA / 5D / 6D / KH / 1S / 8S / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / 7D / 8D / JB / 9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / 10S / 
+
+Swap cards above first J with those below second J
+9D / 10D / JD / QD / KD / 4D / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / 10S / JA / 5D / 6D / KH / 1S / 8S / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / 7D / 8D / JB / QS / 4C / 1C / 9S / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 2H / 6C / 
+
+Count cut on value of last card (6)
+2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / 10S / JA / 5D / 6D / KH / 1S / 8S / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / 7D / 8D / JB / QS / 4C / 1C / 9S / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 2H / 9D / 10D / JD / QD / KD / 4D / 6C / 
+
+Top card value is 2
+
+Output value is 32
+
+returned 32 cs now 44,46,32,
+
+Init a keystream sol, counter 3
+
+Move JA back one
+2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / 10S / 5D / JA / 6D / KH / 1S / 8S / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / 7D / 8D / JB / QS / 4C / 1C / 9S / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 2H / 9D / 10D / JD / QD / KD / 4D / 6C / 
+
+Move JB back two
+2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / 10S / 5D / JA / 6D / KH / 1S / 8S / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / 7D / 8D / QS / 4C / JB / 1C / 9S / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 2H / 9D / 10D / JD / QD / KD / 4D / 6C / 
+
+Swap cards above first J with those below second J
+1C / 9S / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 2H / 9D / 10D / JD / QD / KD / 4D / 6C / JA / 6D / KH / 1S / 8S / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / 7D / 8D / QS / 4C / JB / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / 10S / 5D / 
+
+Count cut on value of last card (18)
+JA / 6D / KH / 1S / 8S / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / 7D / 8D / QS / 4C / JB / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / 10S / 1C / 9S / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 2H / 9D / 10D / JD / QD / KD / 4D / 6C / 5D / 
+
+Top card value is 53
+
+Output value is 18
+
+returned 18 cs now 44,46,32,18,
+
+Init a keystream sol, counter 4
+
+Move JA back one
+6D / JA / KH / 1S / 8S / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / 7D / 8D / QS / 4C / JB / 2C / 5H / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / 10S / 1C / 9S / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 2H / 9D / 10D / JD / QD / KD / 4D / 6C / 5D / 
+
+Move JB back two
+6D / JA / KH / 1S / 8S / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / 7D / 8D / QS / 4C / 2C / 5H / JB / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / 10S / 1C / 9S / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 2H / 9D / 10D / JD / QD / KD / 4D / 6C / 5D / 
+
+Swap cards above first J with those below second J
+6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / 10S / 1C / 9S / 9C / 3D / QC / KC / 1D / 2D / KS / 4H / 2H / 9D / 10D / JD / QD / KD / 4D / 6C / 5D / JA / KH / 1S / 8S / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / 7D / 8D / QS / 4C / 2C / 5H / JB / 6D / 
+
+Count cut on value of last card (19)
+QC / KC / 1D / 2D / KS / 4H / 2H / 9D / 10D / JD / QD / KD / 4D / 6C / 5D / JA / KH / 1S / 8S / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / 7D / 8D / QS / 4C / 2C / 5H / JB / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / 10S / 1C / 9S / 9C / 3D / 6D / 
+
+Top card value is 12
+
+Output value is 17
+
+returned 17 cs now 44,46,32,18,17,
+
+Init a keystream sol, counter 5
+
+Move JA back one
+QC / KC / 1D / 2D / KS / 4H / 2H / 9D / 10D / JD / QD / KD / 4D / 6C / 5D / KH / JA / 1S / 8S / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / 7D / 8D / QS / 4C / 2C / 5H / JB / 6H / 5C / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / 10S / 1C / 9S / 9C / 3D / 6D / 
+
+Move JB back two
+QC / KC / 1D / 2D / KS / 4H / 2H / 9D / 10D / JD / QD / KD / 4D / 6C / 5D / KH / JA / 1S / 8S / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / 7D / 8D / QS / 4C / 2C / 5H / 6H / 5C / JB / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / 10S / 1C / 9S / 9C / 3D / 6D / 
+
+Swap cards above first J with those below second J
+9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / 10S / 1C / 9S / 9C / 3D / 6D / JA / 1S / 8S / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / 7D / 8D / QS / 4C / 2C / 5H / 6H / 5C / JB / QC / KC / 1D / 2D / KS / 4H / 2H / 9D / 10D / JD / QD / KD / 4D / 6C / 5D / KH / 
+
+Count cut on value of last card (39)
+KC / 1D / 2D / KS / 4H / 2H / 9D / 10D / JD / QD / KD / 4D / 6C / 5D / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / 10S / 1C / 9S / 9C / 3D / 6D / JA / 1S / 8S / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / 7D / 8D / QS / 4C / 2C / 5H / 6H / 5C / JB / QC / KH / 
+
+Top card value is 13
+
+Output value is 18
+
+returned 18 cs now 44,46,32,18,17,18,
+
+Init a keystream sol, counter 6
+
+Move JA back one
+KC / 1D / 2D / KS / 4H / 2H / 9D / 10D / JD / QD / KD / 4D / 6C / 5D / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / 10S / 1C / 9S / 9C / 3D / 6D / 1S / JA / 8S / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / 7D / 8D / QS / 4C / 2C / 5H / 6H / 5C / JB / QC / KH / 
+
+Move JB back two
+KC / 1D / 2D / KS / 4H / 2H / 9D / 10D / JD / QD / KD / 4D / 6C / 5D / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / 10S / 1C / 9S / 9C / 3D / 6D / 1S / JA / 8S / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / 7D / 8D / QS / 4C / 2C / 5H / 6H / 5C / QC / KH / JB / 
+
+Swap cards above first J with those below second J
+JA / 8S / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / 7D / 8D / QS / 4C / 2C / 5H / 6H / 5C / QC / KH / JB / KC / 1D / 2D / KS / 4H / 2H / 9D / 10D / JD / QD / KD / 4D / 6C / 5D / 9H / 10H / JH / QH / 7H / 2S / 3S / 4S / 5S / 6S / 7S / 8H / 10S / 1C / 9S / 9C / 3D / 6D / 1S / 
+
+Count cut on value of last card (40)
+2S / 3S / 4S / 5S / 6S / 7S / 8H / 10S / 1C / 9S / 9C / 3D / 6D / JA / 8S / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / 7D / 8D / QS / 4C / 2C / 5H / 6H / 5C / QC / KH / JB / KC / 1D / 2D / KS / 4H / 2H / 9D / 10D / JD / QD / KD / 4D / 6C / 5D / 9H / 10H / JH / QH / 7H / 1S / 
+
+Top card value is 41
+
+Output value is 23
+
+returned 23 cs now 44,46,32,18,17,18,23,
+
+Init a keystream sol, counter 7
+
+Move JA back one
+2S / 3S / 4S / 5S / 6S / 7S / 8H / 10S / 1C / 9S / 9C / 3D / 6D / 8S / JA / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / 7D / 8D / QS / 4C / 2C / 5H / 6H / 5C / QC / KH / JB / KC / 1D / 2D / KS / 4H / 2H / 9D / 10D / JD / QD / KD / 4D / 6C / 5D / 9H / 10H / JH / QH / 7H / 1S / 
+
+Move JB back two
+2S / 3S / 4S / 5S / 6S / 7S / 8H / 10S / 1C / 9S / 9C / 3D / 6D / 8S / JA / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / 7D / 8D / QS / 4C / 2C / 5H / 6H / 5C / QC / KH / KC / 1D / JB / 2D / KS / 4H / 2H / 9D / 10D / JD / QD / KD / 4D / 6C / 5D / 9H / 10H / JH / QH / 7H / 1S / 
+
+Swap cards above first J with those below second J
+2D / KS / 4H / 2H / 9D / 10D / JD / QD / KD / 4D / 6C / 5D / 9H / 10H / JH / QH / 7H / 1S / JA / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / 7D / 8D / QS / 4C / 2C / 5H / 6H / 5C / QC / KH / KC / 1D / JB / 2S / 3S / 4S / 5S / 6S / 7S / 8H / 10S / 1C / 9S / 9C / 3D / 6D / 8S / 
+
+Count cut on value of last card (47)
+10S / 1C / 9S / 9C / 3D / 6D / 2D / KS / 4H / 2H / 9D / 10D / JD / QD / KD / 4D / 6C / 5D / 9H / 10H / JH / QH / 7H / 1S / JA / 10C / JC / 1H / JS / 3H / 3C / 7C / 8C / 7D / 8D / QS / 4C / 2C / 5H / 6H / 5C / QC / KH / KC / 1D / JB / 2S / 3S / 4S / 5S / 6S / 7S / 8H / 8S / 
+
+Top card value is 49
+
+Output value is 44
+
+returned 44 cs now 44,46,32,18,17,18,23,44,
+
+Init a keystream sol, counter 8
+
+Move JA back one
+10S / 1C / 9S / 9C / 3D / 6D / 2D / KS / 4H / 2H / 9D / 10D / JD / QD / KD / 4D / 6C / 5D / 9H / 10H / JH / QH / 7H / 1S / 10C / JA / JC / 1H / JS / 3H / 3C / 7C / 8C / 7D / 8D / QS / 4C / 2C / 5H / 6H / 5C / QC / KH / KC / 1D / JB / 2S / 3S / 4S / 5S / 6S / 7S / 8H / 8S / 
+
+Move JB back two
+10S / 1C / 9S / 9C / 3D / 6D / 2D / KS / 4H / 2H / 9D / 10D / JD / QD / KD / 4D / 6C / 5D / 9H / 10H / JH / QH / 7H / 1S / 10C / JA / JC / 1H / JS / 3H / 3C / 7C / 8C / 7D / 8D / QS / 4C / 2C / 5H / 6H / 5C / QC / KH / KC / 1D / 2S / 3S / JB / 4S / 5S / 6S / 7S / 8H / 8S / 
+
+Swap cards above first J with those below second J
+4S / 5S / 6S / 7S / 8H / 8S / JA / JC / 1H / JS / 3H / 3C / 7C / 8C / 7D / 8D / QS / 4C / 2C / 5H / 6H / 5C / QC / KH / KC / 1D / 2S / 3S / JB / 10S / 1C / 9S / 9C / 3D / 6D / 2D / KS / 4H / 2H / 9D / 10D / JD / QD / KD / 4D / 6C / 5D / 9H / 10H / JH / QH / 7H / 1S / 10C / 
+
+Count cut on value of last card (10)
+3H / 3C / 7C / 8C / 7D / 8D / QS / 4C / 2C / 5H / 6H / 5C / QC / KH / KC / 1D / 2S / 3S / JB / 10S / 1C / 9S / 9C / 3D / 6D / 2D / KS / 4H / 2H / 9D / 10D / JD / QD / KD / 4D / 6C / 5D / 9H / 10H / JH / QH / 7H / 1S / 4S / 5S / 6S / 7S / 8H / 8S / JA / JC / 1H / JS / 10C / 
+
+Top card value is 29
+
+Output value is 22
+
+returned 22 cs now 44,46,32,18,17,18,23,44,22,
+
+cypherstream complete as 44,46,32,18,17,18,23,44,22,
+
+Complete. Plaintext SOLITAIRE, keyphrase CRYPTONOMICON, ciphertext KIRAKSFJA
+

@@ -261,7 +261,7 @@ function encryptThis($input,$cypherstream,$decrypt) {
 // OK, play some cards..
 
 $keypassphrase = 'CRYPTONOMICON';
-$input = 'cat';
+$input = 'SOLITAIRE';
 
 // init the deck in standard order 
 initBlankDeck();
